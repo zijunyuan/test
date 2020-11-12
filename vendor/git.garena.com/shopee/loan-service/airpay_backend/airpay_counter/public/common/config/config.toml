@@ -1,0 +1,14 @@
+AppName="apc_admin_edge_server"
+
+[server]
+port=10000
+tracing="http://10.12.77.215:14268/api/traces?format=jaeger.thrift"
+etcds=["10.12.77.215:2379","10.12.77.216:2379"]
+env="dev"
+
+[log]
+level="debug"
+
+
+[grpc]
+addr="123"
