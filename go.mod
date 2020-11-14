@@ -3,9 +3,10 @@ module test
 go 1.12
 
 require (
-	cloud.google.com/go v0.26.0 // indirect
-	git.garena.com/shopee/loan-service/airpay_backend/airpay_counter/apc_refactory/apc_protobuf v0.0.0-20201112084228-23ca1b1bd46f
-	git.garena.com/shopee/loan-service/airpay_backend/airpay_counter/public/common v0.0.0-20201010061119-337190bddcb2
-	git.garena.com/shopee/loan-service/airpay_backend/public/common v1.0.11
-	github.com/client9/misspell v0.3.4 // indirect
+	github.com/Shopify/sarama v1.27.2
+	github.com/fsnotify/fsnotify v1.4.7 // indirect
+	github.com/hpcloud/tail v1.0.0
+	gopkg.in/fsnotify.v1 v1.4.7 // indirect
+	gopkg.in/ini.v1 v1.62.0
+	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 )

@@ -1,5 +1,0 @@
-[mysql.promotion]
-Dsn=["mitra:shopee123!@tcp(10.12.77.233:3306)/apc_promotion_vn_db?charset=utf8&parseTime=true"]#第0个是master，其它是slave
-MaxIdleConn=3
-MaxLifetime=10
-LogMode=true
